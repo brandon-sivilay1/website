@@ -1,0 +1,111 @@
+*{
+	box-sizing:border-box;
+	font-family: 'Yeon Sung' ;
+}
+body{
+	background-color:black;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	color:white;
+	font-size:72px;
+	text-align: center;
+	margin: 0;
+
+}
+h2{
+	color:white;
+	text-align: center; 
+}
+p{
+	color: white;
+	font-size:20px;
+}
+ul{
+	color:white;
+	list-style-type: none;
+}
+h3{
+	color:white;
+	text-align: center;
+}
+a{
+	color: white;
+	font-size:30px;
+}
+
+header{
+	display:flex;
+	justify-content:space-between; 
+	align-items: center;
+		padding: 0 25px;
+}
+.intro {
+	background-image: url(1633.png);
+	background-size:cover;
+	height: 800px;
+	
+	background-repeat: no-repeat;
+}
+.albums{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center; 
+}
+.albums h1 {
+	width: 100%;
+}
+
+.albums .album {
+	width: 50%;
+}
+.biography{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 50%;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,.35);
+	padding:20px;
+}
+.tours{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 50%;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,.35);
+	padding:20px;
+	font-size: 20px;
+}
+
+.ticket {
+	text-align: center;
+	
+}
+
+.ticket a {
+	background-color: rgba(0,0,0,1);
+	border:1px solid red;
+}
+.media{
+	display:flex;
+	justify-content:space-between; 
+	align-items: center;
+	padding: 0 20px;
+}
+.media-item {
+	display:flex;
+	align-items: center;
+}
+
+.media-item img {
+	margin: 10px;
+}
+
+
+
